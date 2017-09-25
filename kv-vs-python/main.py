@@ -25,4 +25,5 @@ class KVvsPY2(App):
         return Tela1()
 
 janela = KVvsPY2()
+janela.title = "Hypnos"
 janela.run()

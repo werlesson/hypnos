@@ -4,7 +4,7 @@
 title = KivyMD Kitchen Sink
 
 # (str) Package name
-package.name = kitchen_sink
+# package.name = kitchen_sink
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.kivymd

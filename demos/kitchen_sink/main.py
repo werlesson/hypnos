@@ -280,25 +280,25 @@ NavigationLayout:
                             text: "African Lion"
                         SmartTile:
                             mipmap: True
-                            source: './img/beautiful-931152_1280.jpg'
+                            source: './assets/beautiful-931152_1280.jpg'
                         SmartTile:
                             mipmap: True
-                            source: './img/african-lion-951778_1280.jpg'
+                            source: './assets/african-lion-951778_1280.jpg'
                         SmartTile:
                             mipmap: True
-                            source: './img/guitar-1139397_1280.jpg'
+                            source: './assets/guitar-1139397_1280.jpg'
                         SmartTile:
                             mipmap: True
-                            source: './img/robin-944887_1280.jpg'
+                            source: './assets/robin-944887_1280.jpg'
                         SmartTile:
                             mipmap: True
-                            source: './img/kitten-1049129_1280.jpg'
+                            source: './assets/kitten-1049129_1280.jpg'
                         SmartTile:
                             mipmap: True
-                            source: './img/light-bulb-1042480_1280.jpg'
+                            source: './assets/light-bulb-1042480_1280.jpg'
                         SmartTile:
                             mipmap: True
-                            source: './img/tangerines-1111529_1280.jpg'
+                            source: './assets/tangerines-1111529_1280.jpg'
             Screen:
                 name: 'labels'
                 ScrollView:

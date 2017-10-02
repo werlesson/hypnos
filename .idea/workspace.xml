@@ -2,8 +2,179 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28c47f96-35f1-4fee-8896-159441ed6114" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aqui.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kv-vs-python/main.py" afterPath="$PROJECT_DIR$/kv-vs-python/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/african-lion-951778_1280.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/beautiful-931152_1280.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/camera.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/cloud-upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/facebook-box.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/guitar-1139397_1280.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/kitten-1049129_1280.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/kivymd_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/light-bulb-1042480_1280.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/robin-944887_1280.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/tangerines-1111529_1280.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/youtube-play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/buildozer.spec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07 - project interface/1596_01_05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07 - project interface/1596_01_07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07 - project interface/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07 - project interface/comiccreator.kv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07 - project interface/comiccreator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07 - project interface/drawingspace.kv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07 - project interface/generaloptions.kv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07 - project interface/statusbar.kv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07 - project interface/toolbox.kv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/images/kivymd_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/images/me.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/images/me.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/accordion.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/backgroundcolorbehavior.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/bottomsheet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/button.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/card.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/color_definitions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/date_picker.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/dialog.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/elevationbehavior.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/fonts/Material-Design-Iconic-Font.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/fonts/Roboto-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/fonts/Roboto-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/fonts/Roboto-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/fonts/Roboto-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/fonts/Roboto-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/fonts/Roboto-MediumItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/fonts/Roboto-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/fonts/Roboto-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/fonts/Roboto-ThinItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/grid.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/icon_definitions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/images/kivymd_512.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/images/kivymd_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/images/quad_shadow-0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/images/quad_shadow-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/images/quad_shadow-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/images/quad_shadow.atlas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/images/rec_shadow-0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/images/rec_shadow-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/images/rec_shadow.atlas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/images/rec_st_shadow-0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/images/rec_st_shadow-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/images/rec_st_shadow-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/images/rec_st_shadow.atlas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/images/round_shadow-0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/images/round_shadow-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/images/round_shadow-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/images/round_shadow.atlas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/label.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/list.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/material_resources.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/menu.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/navigationdrawer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/progressbar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/ripplebehavior.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/selectioncontrols.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/slider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/slidingpanel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/snackbar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/spinner.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/tabs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/textfields.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/theme_picker.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/theming.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/time_picker.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/toolbar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/vendor/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/vendor/circleLayout/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/vendor/circleLayout/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/vendor/circleLayout/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/vendor/circularTimePicker/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/vendor/circularTimePicker/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/kivymd/vendor/circularTimePicker/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Navigation-tutotial/navigationdrawer/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/.idea/kv-vs-python.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/accordion.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/backgroundcolorbehavior.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/bottomsheet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/button.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/card.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/color_definitions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/date_picker.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/dialog.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/elevationbehavior.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/fonts/Material-Design-Iconic-Font.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/fonts/Roboto-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/fonts/Roboto-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/fonts/Roboto-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/fonts/Roboto-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/fonts/Roboto-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/fonts/Roboto-MediumItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/fonts/Roboto-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/fonts/Roboto-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/fonts/Roboto-ThinItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/grid.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/icon_definitions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/images/kivymd_512.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/images/kivymd_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/images/quad_shadow-0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/images/quad_shadow-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/images/quad_shadow-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/images/quad_shadow.atlas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/images/rec_shadow-0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/images/rec_shadow-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/images/rec_shadow.atlas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/images/rec_st_shadow-0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/images/rec_st_shadow-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/images/rec_st_shadow-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/images/rec_st_shadow.atlas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/images/round_shadow-0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/images/round_shadow-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/images/round_shadow-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/images/round_shadow.atlas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/label.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/list.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/material_resources.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/menu.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/navigationdrawer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/progressbar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/ripplebehavior.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/selectioncontrols.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/slider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/slidingpanel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/snackbar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/spinner.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/tabs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/textfields.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/theme_picker.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/theming.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/time_picker.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/toolbar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/vendor/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/vendor/circleLayout/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/vendor/circleLayout/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/vendor/circleLayout/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/vendor/circularTimePicker/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/vendor/circularTimePicker/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kivymd/vendor/circularTimePicker/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/kvvspy2.kv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kv-vs-python/main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/telinha/maintela.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/widgets/boxlayout/1073.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/widgets/boxlayout/main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/widgets/floatlayout/main.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/hypnos.iml" afterPath="$PROJECT_DIR$/.idea/hypnos.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,29 +183,33 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kv-vs-python/main.py">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kvvspy2.kv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kv-vs-python/kvvspy2.kv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="309" column="34" lean-forward="true" selection-start-line="309" selection-start-column="34" selection-end-line="309" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>MDLabel</find>
+      <find>primary_dark</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,14 +219,16 @@
       <list>
         <option value="$PROJECT_DIR$/kv-vs-python/kvvspy2.kv" />
         <option value="$PROJECT_DIR$/kv-vs-python/main.py" />
+        <option value="$PROJECT_DIR$/Navigation-tutotial/navigationdrawer/__init__.py" />
+        <option value="$PROJECT_DIR$/Navigation-tutotial/main.py" />
+        <option value="$PROJECT_DIR$/kivymd/main.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="698" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1366" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -72,27 +249,30 @@
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="hypnos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hypnos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hypnos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hypnos" type="462c0819:PsiDirectoryNode" />
-              <item name="kv-vs-python" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hypnos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hypnos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../KivyMD" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\werle\OneDrive\Documents\GitHub\hypnos\kv-vs-python" />
     </key>
   </component>
@@ -109,26 +289,174 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.main">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kv-vs-python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Navigation-tutotial" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="hypnos" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kv-vs-python/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Navigation-tutotial/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <method />
     </configuration>
+    <configuration default="false" name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/widgets/boxlayout" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hypnos" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/widgets/boxlayout/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/widgets/floatlayout" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hypnos" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/widgets/floatlayout/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Navigation-tutotial/navigationdrawer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hypnos" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Navigation-tutotial/navigationdrawer/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demos/kitchen_sink" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hypnos" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hypnos" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hypnos" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="hypnos" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.main (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.main (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.main (3)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.__init__" />
+      <item index="4" class="java.lang.String" itemvalue="Python.main" />
+    </list>
     <recent_temporary>
-      <list size="1">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.__init__" />
+        <item index="3" class="java.lang.String" itemvalue="Python.main (3)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -146,26 +474,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3018576" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25302115" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -173,30 +501,182 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Anaconda3/envs/k36/Lib/site-packages/kivy/lang/builder.py">
+    <entry file="file://$PROJECT_DIR$/Navigation-tutotial/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="248" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kv-vs-python/kvvspy2.kv">
+    <entry file="file://$PROJECT_DIR$/Navigation-tutotial/navigationdrawer/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kv-vs-python/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kv-vs-python/kvvspy2.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/k36/Lib/site-packages/kivy/lang/builder.py" />
+    <entry file="file://$PROJECT_DIR$/kv-vs-python/kvvspy2.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kv-vs-python/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Navigation-tutotial/images/me.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Navigation-tutotial/images/me.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Navigation-tutotial/images/kivymd_logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07 - project interface/statusbar.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07 - project interface/comiccreator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07 - project interface/drawingspace.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07 - project interface/comiccreator.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widgets/boxlayout/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/telinha/maintela.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widgets/floatlayout/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Navigation-tutotial/navigationdrawer/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Navigation-tutotial/kivymd/theming.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Navigation-tutotial/kivymd/toolbar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Navigation-tutotial/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kivymd/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildozer.spec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="871">
+          <caret line="244" column="0" lean-forward="true" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="309" column="34" lean-forward="true" selection-start-line="309" selection-start-column="34" selection-end-line="309" selection-end-column="34" />
           <folding />
         </state>
       </provider>

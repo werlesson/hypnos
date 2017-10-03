@@ -25,9 +25,8 @@ class HypnosApp(App):
     theme_cls = ThemeManager()
 
     def build(self):
-        pass
-
-#    def build(self):
+        self.theme_cls.theme_style = 'Dark'
+        self.theme_cls.primary_palette = 'Yellow'
 #        manager = ScreenManager()
 #        manager.add_widget(Dashboard(name='dashboard'))
 #        return manager

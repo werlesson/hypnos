@@ -4,6 +4,7 @@
 
 #:include view/cliente.kv
 
+
 NavigationLayout:
     id: nav_layout
 
@@ -13,13 +14,9 @@ NavigationLayout:
         orientation: 'vertical'
         Topbar:
 
-        ScreenManager:
-            id: scr_mngr
+        ScreenManagement:
+            id: manager
             Screen:
-                name: 'dashboard'
+                name: "dashboard"
                 Dashboard:
-
-            Screen:
-                name: 'cliente'
-                Cliente:
-
+            ClienteScreen:

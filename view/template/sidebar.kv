@@ -1,0 +1,12 @@
+<Sidebar@MDNavigationDrawer>:
+    id: nav_drawer
+    NavigationDrawerToolbar:
+        title: "Menu Principal"
+    NavigationDrawerIconButton:
+        icon: 'home'
+        text: "Dashboard"
+        on_release: app.root.ids.scr_mngr.current = 'dashboard'
+    NavigationDrawerIconButton:
+        icon: 'home'
+        text: "Cliente"
+        on_release: app.root.ids.scr_mngr.current = 'cliente'

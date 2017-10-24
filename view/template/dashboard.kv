@@ -1,13 +1,45 @@
+#:import Toolbar kivymd.toolbar.Toolbar
+#:import ThemeManager kivymd.theming.ThemeManager
+#:import MDNavigationDrawer kivymd.navigationdrawer.MDNavigationDrawer
+#:import NavigationLayout kivymd.navigationdrawer.NavigationLayout
+#:import NavigationDrawerDivider kivymd.navigationdrawer.NavigationDrawerDivider
+#:import NavigationDrawerToolbar kivymd.navigationdrawer.NavigationDrawerToolbar
+#:import NavigationDrawerSubheader kivymd.navigationdrawer.NavigationDrawerSubheader
+#:import MDCheckbox kivymd.selectioncontrols.MDCheckbox
+#:import MDSwitch kivymd.selectioncontrols.MDSwitch
+#:import MDList kivymd.list.MDList
+#:import OneLineListItem kivymd.list.OneLineListItem
+#:import TwoLineListItem kivymd.list.TwoLineListItem
+#:import ThreeLineListItem kivymd.list.ThreeLineListItem
+#:import OneLineAvatarListItem kivymd.list.OneLineAvatarListItem
+#:import OneLineIconListItem kivymd.list.OneLineIconListItem
+#:import OneLineAvatarIconListItem kivymd.list.OneLineAvatarIconListItem
+#:import MDTextField kivymd.textfields.MDTextField
+#:import MDSpinner kivymd.spinner.MDSpinner
+#:import MDCard kivymd.card.MDCard
+#:import MDSeparator kivymd.card.MDSeparator
+#:import MDDropdownMenu kivymd.menu.MDDropdownMenu
+#:import get_color_from_hex kivy.utils.get_color_from_hex
+#:import colors kivymd.color_definitions.colors
+#:import SmartTile kivymd.grid.SmartTile
+#:import MDSlider kivymd.slider.MDSlider
+#:import MDTabbedPanel kivymd.tabs.MDTabbedPanel
+#:import MDTab kivymd.tabs.MDTab
+#:import MDProgressBar kivymd.progressbar.MDProgressBar
+#:import MDAccordion kivymd.accordion.MDAccordion
+#:import MDAccordionItem kivymd.accordion.MDAccordionItem
+#:import MDAccordionSubItem kivymd.accordion.MDAccordionSubItem
+#:import MDThemePicker kivymd.theme_picker.MDThemePicker
 #:import MDBottomNavigation kivymd.tabs.MDBottomNavigation
 #:import MDBottomNavigationItem kivymd.tabs.MDBottomNavigationItem
-#:import MDTextField kivymd.textfields.MDTextField
 
 <Dashboard@MDBottomNavigation>:
     id: bottom_navigation_demo
+
     MDBottomNavigationItem:
         name: 'octagon'
-        text: "Warning"
-        icon: "alert-octagon"
+        text: "Hypnos"
+        icon: "alert"
         MDLabel:
             font_style: 'Display3'
             theme_text_color: 'Primary'
@@ -22,38 +54,126 @@
             halign: 'center'
             size_hint_y: 0.8
             height: self.texture_size[1] + dp(4)
+
     MDBottomNavigationItem:
         name: 'banking'
-        text: "Bank"
-        icon: 'bank'
+        text: "Mapa de Quartos"
+        icon: 'grid'
         BoxLayout:
             orientation: 'vertical'
-            size_hint_y: None
-            padding: dp(48)
-            spacing: 10
+            padding: dp(10), dp(10)
+            spacing: dp(10)
             MDTextField:
-                hint_text: "You can put any widgets here"
-                helper_text: "Hello :)"
-                helper_text_mode: "on_focus"
+                hint_text: "Digite sua busca..."
+            ScrollView:
+                GridLayout:
+                    cols: 3
+                    row_default_height: 160
+                    row_force_default: True
+                    size_hint_y: None
+                    height: self.minimum_height
+                    padding: dp(10), dp(10)
+                    spacing: dp(10)
+                    Quarto:
+                    Quarto:
+                    Quarto:
+                    Quarto:
+                    Quarto:
+                    Quarto:
+                    Quarto:
+                    Quarto:
+                    Quarto:
+                    Quarto:
+                    Quarto:
+                    Quarto:
+                    Quarto:
+                    Quarto:
+                    Quarto:
+
+
     MDBottomNavigationItem:
-        name: 'bottom_navigation_desktop_1'
-        text: "Hello"
-        icon: 'alert'
-        id: bottom_navigation_desktop_1
+        name: 'prereserva'
+        text: "Pré-Reserva"
+        icon: 'file'
+        id: prereserva
         BoxLayout:
             orientation: 'vertical'
-            size_hint_y: None
-            padding: dp(48)
-            spacing: 10
+            padding: dp(10), dp(10)
+            spacing: dp(10)
             MDTextField:
-                hint_text: "Hello again"
+                hint_text: "Digite sua busca..."
+            ScrollView:
+                do_scroll_x: False
+                MDList:
+                    id: ml
+
+                    TwoLineListItem:
+                        text: "Bruno Ricardo Lucas Oliveira"
+                        secondary_text: "02/11/2017 - Quarto 00"
+                    TwoLineListItem:
+                        text: "Isaac Henrique Cardoso"
+                        secondary_text: "17/11/2017 - Quarto 12"
+                    TwoLineListItem:
+                        text: "Thales Francisco Igor Cardoso"
+                        secondary_text: "21/11/2017 - Quarto 35"
+                    TwoLineListItem:
+                        text: "Iago Paulo Freitas"
+                        secondary_text: "15/12/2017 - Quarto 25"
+                    TwoLineListItem:
+                        text: "Bruna Lara Jennifer Cavalcanti"
+                        secondary_text: "24/11/2017 - Quarto 03"
+                    TwoLineListItem:
+                        text: "Julia Emanuelly Mendes"
+                        secondary_text: "24/11/2017 - Quarto 14"
+
     MDBottomNavigationItem:
-        name: 'bottom_navigation_desktop_2'
-        text: "Food"
-        icon: 'food'
+        name: 'agenda'
+        text: "Agenda"
+        icon: 'phone'
         id: bottom_navigation_desktop_2
+        BoxLayout:
+            orientation: 'vertical'
+            padding: dp(10), dp(10)
+            spacing: dp(10)
+            MDTextField:
+                hint_text: "Digite sua busca..."
+            ScrollView:
+                do_scroll_x: False
+                MDList:
+                    id: ml
+
+                    TwoLineListItem:
+                        text: "Valentina e Nicolas Esportes Ltda"
+                        secondary_text: "(85) 3983-3452"
+                    TwoLineListItem:
+                        text: "Arthur e Fernando Comercio de Bebidas Ltda"
+                        secondary_text: "(88) 2866-7859"
+                    TwoLineListItem:
+                        text: "Cauã e Isabelle Locações de Automóveis Ltda"
+                        secondary_text: "(85) 2617-5067"
+                    TwoLineListItem:
+                        text: "Ian e Yuri Comercio de Bebidas ME"
+                        secondary_text: "(85) 2907-2061"
+                    TwoLineListItem:
+                        text: "Beatriz e Elisa Restaurante Ltda"
+                        secondary_text: "(85) 2776-4356"
+                    TwoLineListItem:
+                        text: "Alícia e Gustavo Pizzaria ME"
+                        secondary_text: "(85) 2835-2906"
+
+
+<Quarto@MDCard>:
+    BoxLayout:
+        orientation:'vertical'
+        padding: dp(8)
         MDLabel:
-            font_style: 'Body1'
+            text: 'Quarto'
+            theme_text_color: 'Secondary'
+            font_style:"Title"
+            size_hint_y: None
+            height: dp(36)
+        MDSeparator:
+            height: dp(1)
+        MDLabel:
+            text: 'Descrição do quarto'
             theme_text_color: 'Primary'
-            text: "Cheese!"
-            halign: 'center'

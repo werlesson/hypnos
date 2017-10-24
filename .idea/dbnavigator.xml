@@ -24,20 +24,18 @@
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
     <loaded-nodes>
-      <connection connection-id="6436d911-dd6c-4ca1-aeff-2207340e3e94">
+      <connection connection-id="624e8843-54fb-48e1-801f-472b098ca147">
         <schema name="main" object-types="column, constraint, index, table, dataset trigger, view" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="6436d911-dd6c-4ca1-aeff-2207340e3e94">
-      <console name="HypnosConn" type="STANDARD"><![CDATA[select * from pessoas
-
-select * from enderecos
-
-select * from enderecos, pessoas
-    where enderecos.id_pessoa = pessoas.id]]></console>
+    <connection id="624e8843-54fb-48e1-801f-472b098ca147">
+      <console name="HypConn" type="STANDARD" />
     </connection>
+  </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-list connection-id="624e8843-54fb-48e1-801f-472b098ca147" dataset="main.clientes" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -62,9 +60,9 @@ select * from enderecos, pessoas
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="6436d911-dd6c-4ca1-aeff-2207340e3e94" active="true">
+      <connection id="624e8843-54fb-48e1-801f-472b098ca147" active="true">
         <database>
-          <name value="HypnosConn" />
+          <name value="HypConn" />
           <description value="" />
           <database-type value="SQLITE" />
           <config-type value="BASIC" />
@@ -77,7 +75,7 @@ select * from enderecos, pessoas
           <port value="" />
           <database value="" />
           <files>
-            <file path="$PROJECT_DIR$/database.db" schema="main" />
+            <file path="$PROJECT_DIR$/database/database.db" schema="main" />
           </files>
           <os-authentication value="false" />
           <empty-password value="false" />

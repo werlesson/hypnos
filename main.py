@@ -25,6 +25,7 @@ from controller.ProdutoController import ProdutoScreen
 from controller.ServicoController import ServicoScreen
 from controller.EnderecoController import EnderecoScreen
 
+
 class ScreenManagement(ScreenManager):
     pass
 

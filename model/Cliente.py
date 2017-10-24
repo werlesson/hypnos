@@ -32,14 +32,12 @@ if __name__ == '__main__':
     # cria as tabelas no banco (caso nao existam)
     Base.metadata.create_all()
 
-    # configure Session class with desired options
+    # configure Session class with desired options ...
     Session = sessionmaker()
     Session.configure(bind=engine)
 
     session = Session()
 
-
-def save(nome, sobrenome):
-    cliente = Cliente(nome, sobrenome)
-    session.add(cliente)
+    session.add(Cliente("Bruna", "Martins"))
+    session.add(Cliente("Werlesson", "Martins"))
     session.commit()

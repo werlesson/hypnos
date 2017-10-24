@@ -35,6 +35,5 @@ class HypnosApp(App):
     def build(self):
         pass
 
-
 if __name__ == "__main__":
     HypnosApp().run()

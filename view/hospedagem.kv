@@ -1,0 +1,93 @@
+<HospedagemScreen>:
+    name: "hospedagem"
+
+    MDBottomNavigation:
+        id: view_hospedagem
+
+        MDBottomNavigationItem:
+            name: 'search_hospedagem'
+            text: "Lista de hospedagem"
+            icon: 'account'
+            id: search_hospedagem
+            BoxLayout:
+                orientation: 'vertical'
+                padding: dp(10), dp(10)
+                spacing: dp(10)
+                MDTextField:
+                    hint_text: "Digite sua busca..."
+                ScrollView:
+                    do_scroll_x: False
+                    MDList:
+                        id: ml
+
+                        OneLineListItem:
+                            text: "Bruno Ricardo Lucas Oliveira"
+                            text: "Check-In: 10/04/2012"
+                            text: "Check-Out: 12/04/2012"
+                        OneLineListItem:
+                            text: "Isaac Henrique Cardoso"
+                            text: "Check-In: 28/09/2013"
+                            text: "Check-Out: 30/09/2013"
+                        OneLineListItem:
+                            text: "Thales Francisco Igor Cardoso"
+                            text: "Check-In: 30/07/2014"
+                            text: "Check-Out: 31/07/2014"
+                        OneLineListItem:
+                            text: "Cauã e Isabelle Locações de Automóveis Ltda"
+                            text: "Check-In: 30/07/2014"
+                            text: "Check-Out: 31/07/2014"
+                        OneLineListItem:
+                            text: "Ian e Yuri Comercio de Bebidas ME"
+                            text: "Check-In: 30/07/2014"
+                            text: "Check-Out: 31/07/2014"
+                        OneLineListItem:
+                            text: "Beatriz e Elisa Restaurante Ltda"
+                            text: "Check-In: 30/07/2014"
+                            text: "Check-Out: 31/07/2014"
+                        OneLineListItem:
+                            text: "Alícia e Gustavo Pizzaria ME"
+                            text: "Check-In: 30/07/2014"
+                            text: "Check-Out: 31/07/2014"
+
+        MDBottomNavigationItem:
+            name: 'cadastro_hospedagem'
+            text: "Cadastro"
+            icon: "plus"
+            id: cadastro_hospedagem
+            ScrollView:
+                BoxLayout:
+                    orientation: 'vertical'
+                    size_hint_y: None
+                    height: self.minimum_height
+                    padding: dp(48)
+                    spacing: 10
+                    MDTextField:
+                        id: iptCheckInHospedagem
+                        hint_text: "Check-In"
+                    MDTextField:
+                        id: iptCheckOutHospedagem
+                        hint_text: "Check-Out"
+                    MDTextField:
+                        id: iptValorDaDiariaHospedagem
+                        hint_text: "Valor Diaria"
+                    MDTextField:
+                        id: iptDiariasHospedagem
+                        hint_text: "Diarias"
+                    MDTextField:
+                        id: iptValorServicoHospedagem
+                        hint_text: "Valor Servico"
+                    MDTextField:
+                        id: iptProdutosHospedagem
+                        hint_text: "Produtos"
+                    MDTextField:
+                        id: iptValorProdutosHospedagem
+                        hint_text: "Valor Produtos"
+                    MDTextField:
+                        id: iptDescontoHospedagem
+                        hint_text: "Desconto"
+                    MDTextField:
+                        id: iptValorTotalHospedagem
+                        hint_text: "Valor Total"
+                    MDRaisedButton:
+                        text: "Salvar"
+                        opposite_colors: True

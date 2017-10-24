@@ -24,6 +24,7 @@ from controller.FuncionarioController import FuncionarioScreen
 from controller.ProdutoController import ProdutoScreen
 from controller.ServicoController import ServicoScreen
 from controller.EnderecoController import EnderecoScreen
+from controller.HospedagemController import HospedagemScreen
 
 
 class ScreenManagement(ScreenManager):

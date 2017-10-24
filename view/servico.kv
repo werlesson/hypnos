@@ -1,0 +1,31 @@
+<ServicoScreen>:
+    name: "servico"
+    ScrollView:
+        BoxLayout:
+            orientation: 'vertical'
+            size_hint_y: None
+            height: self.minimum_height
+            padding: dp(48)
+            spacing: 10
+            MDTextField:
+                id: iptNomeServico
+                hint_text: "Nome"
+            MDTextField:
+                id: iptCategoriaServico
+                hint_text: "Categoria"
+            MDTextField:
+                id: iptValorServico
+                hint_text: "Valor"
+            MDTextField:
+                id: iptServicoPPessoa
+                hint_text: "Servico por Pessoa"
+            MDTextField:
+                id: iptServicoPDia
+                hint_text: "Servico por Dia"
+            MDTextField:
+                id: iptDescricaoServico
+                hint_text: "Descricao"
+            MDRaisedButton:
+                text: "Salvar"
+                opposite_colors: True
+                on_press: root.save()

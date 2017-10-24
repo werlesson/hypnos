@@ -1,0 +1,28 @@
+<ProdutoScreen>:
+    name: "produto"
+    ScrollView:
+        BoxLayout:
+            orientation: 'vertical'
+            size_hint_y: None
+            height: self.minimum_height
+            padding: dp(48)
+            spacing: 10
+            MDTextField:
+                id: iptNomeProduto
+                hint_text: "Nome"
+            MDTextField:
+                id: iptCategoriaProduto
+                hint_text: "Categoria"
+            MDTextField:
+                id: iptValorProduto
+                hint_text: "Valor"
+            MDTextField:
+                id: iptQuantidadeProduto
+                hint_text: "Quantidade"
+            MDTextField:
+                id: iptDescricaoProduto
+                hint_text: "Descricao"
+            MDRaisedButton:
+                text: "Salvar"
+                opposite_colors: True
+                on_press: root.save()

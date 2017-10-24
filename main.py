@@ -20,7 +20,10 @@ from kivymd.theming import ThemeManager
 from kivymd.time_picker import MDTimePicker
 
 from controller.ClienteController import ClienteScreen
-
+from controller.FuncionarioController import FuncionarioScreen
+from controller.ProdutoController import ProdutoScreen
+from controller.ServicoController import ServicoScreen
+from controller.EnderecoController import EnderecoScreen
 
 class ScreenManagement(ScreenManager):
     pass

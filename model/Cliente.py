@@ -1,43 +1,38 @@
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, String, Integer, ForeignKey
-from sqlalchemy.orm import sessionmaker, mapper
+import pessoa1
 
-from sqlalchemy import create_engine
-from sqlalchemy_utils import database_exists, create_database, drop_database
+class Cliente(pessoa1.Pessoa):
+    def __init__(self):
+        #idPessoa
+        self._id = 0
+        self._observacao = ""
+        self._tipo = ""
+        self._categoria = ""
 
-_url = 'sqlite:///../database/database.db'
+    # Getter do id
+    @property
+    def id(self):
+        return self._id
 
-# cria o engine e o declarative_base
-engine = create_engine(_url, echo=True)
+    # Getter e Setter do observacao
+    @property
+    def observacao(self):
+        return self._observacao
+    @observacao.setter
+    def observacao(self, val):
+        self._observacao = val
 
-Base = declarative_base(bind=engine)
+    # Getter e Setter do tipo
+    @property
+    def tipo(self):
+        return self._tipo
+    @tipo.setter
+    def tipo(self, val):
+        self._tipo = val
 
-
-class Cliente(Base):
-    __tablename__ = 'clientes'
-    id = Column(Integer, primary_key=True)
-    nome = Column(String(100), nullable=False)
-    sobrenome = Column(String(100), nullable=True)
-
-    def __init__(self, nome, sobrenome):
-        self.nome = nome
-        self.sobrenome = sobrenome
-
-    def __repr__(self):
-        return '<Cliente {0}>'.format(self.nome, self.sobrenome)
-
-if __name__ == '__main__':
-    if database_exists(engine.url):
-        Base.metadata.drop_all()
-    # cria as tabelas no banco (caso nao existam)
-    Base.metadata.create_all()
-
-    # configure Session class with desired options ...
-    Session = sessionmaker()
-    Session.configure(bind=engine)
-
-    session = Session()
-
-    session.add(Cliente("Bruna", "Martins"))
-    session.add(Cliente("Werlesson", "Martins"))
-    session.commit()
+    # Getter e Setter do categoria
+    @property
+    def categoria(self):
+        return self._categoria
+    @categoria.setter
+    def categoria(self, val):
+        self._categoria = val

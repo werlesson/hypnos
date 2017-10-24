@@ -2,8 +2,11 @@
 #:include view/template/sidebar.kv
 #:include view/template/topbar.kv
 
+#:include view/funcionario.kv
 #:include view/cliente.kv
-
+#:include view/produto.kv
+#:include view/servico.kv
+#:include view/endereco.kv
 
 NavigationLayout:
     id: nav_layout
@@ -20,3 +23,7 @@ NavigationLayout:
                 name: "dashboard"
                 Dashboard:
             ClienteScreen:
+            FuncionarioScreen:
+            ProdutoScreen:
+            ServicoScreen:
+            EnderecoScreen:

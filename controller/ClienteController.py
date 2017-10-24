@@ -1,6 +1,6 @@
 from kivy.uix.screenmanager import Screen
 
-from model.Cliente import Cliente
+#from model.Cliente import Cliente
 
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker

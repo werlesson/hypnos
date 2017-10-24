@@ -1,20 +1,71 @@
+#:include view/endereco.kv
+
 <ClienteScreen>:
     name: "cliente"
-    ScrollView:
-        BoxLayout:
-            orientation: 'vertical'
-            size_hint_y: None
-            height: self.minimum_height
-            padding: dp(48)
-            spacing: 10
-            MDTextField:
-                id: iptNomeCliente
-                hint_text: "Nome"
-            MDTextField:
-                id: iptSobrenomeCliente
-                hint_text: "Sobrenome"
-            MDRaisedButton:
-                text: "Salvar"
-                opposite_colors: True
-                on_press: root.insert_cliente()
 
+    MDBottomNavigation:
+        id: view_cliente
+
+        MDBottomNavigationItem:
+            name: 'search_clientes'
+            text: "Lista de Clientes"
+            icon: 'account'
+            id: search_clientes
+            BoxLayout:
+                orientation: 'vertical'
+                padding: dp(10), dp(10)
+                spacing: dp(10)
+                MDTextField:
+                    hint_text: "Digite sua busca..."
+                ScrollView:
+                    do_scroll_x: False
+                    MDList:
+                        id: ml
+
+                        OneLineListItem:
+                            text: "Bruno Ricardo Lucas Oliveira"
+                        OneLineListItem:
+                            text: "Isaac Henrique Cardoso"
+                        OneLineListItem:
+                            text: "Thales Francisco Igor Cardoso"
+                        OneLineListItem:
+                            text: "Iago Paulo Freitas"
+                        OneLineListItem:
+                            text: "Bruna Lara Jennifer Cavalcanti"
+                        OneLineListItem:
+                            text: "Julia Emanuelly Mendes"
+                        OneLineListItem:
+                            text: "Valentina e Nicolas Esportes Ltda"
+                        OneLineListItem:
+                            text: "Arthur e Fernando Comercio de Bebidas Ltda"
+                        OneLineListItem:
+                            text: "Cauã e Isabelle Locações de Automóveis Ltda"
+                        OneLineListItem:
+                            text: "Ian e Yuri Comercio de Bebidas ME"
+                        OneLineListItem:
+                            text: "Beatriz e Elisa Restaurante Ltda"
+                        OneLineListItem:
+                            text: "Alícia e Gustavo Pizzaria ME"
+
+        MDBottomNavigationItem:
+            name: 'cadastro_cliente'
+            text: "Cadastro"
+            icon: "plus"
+            id: cadastro_clientes
+            ScrollView:
+                BoxLayout:
+                    orientation: 'vertical'
+                    size_hint_y: None
+                    height: self.minimum_height
+                    padding: dp(48)
+                    spacing: 10
+                    MDTextField:
+                        id: iptNomeCliente
+                        hint_text: "Nome"
+                    MDTextField:
+                        id: iptSobrenomeCliente
+                        hint_text: "Sobrenome"
+                    Endereco:
+                    MDRaisedButton:
+                        text: "Salvar"
+                        opposite_colors: True

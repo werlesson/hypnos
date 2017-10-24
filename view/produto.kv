@@ -1,28 +1,77 @@
 <ProdutoScreen>:
     name: "produto"
-    ScrollView:
-        BoxLayout:
-            orientation: 'vertical'
-            size_hint_y: None
-            height: self.minimum_height
-            padding: dp(48)
-            spacing: 10
-            MDTextField:
-                id: iptNomeProduto
-                hint_text: "Nome"
-            MDTextField:
-                id: iptCategoriaProduto
-                hint_text: "Categoria"
-            MDTextField:
-                id: iptValorProduto
-                hint_text: "Valor"
-            MDTextField:
-                id: iptQuantidadeProduto
-                hint_text: "Quantidade"
-            MDTextField:
-                id: iptDescricaoProduto
-                hint_text: "Descricao"
-            MDRaisedButton:
-                text: "Salvar"
-                opposite_colors: True
-                on_press: root.save()
+
+    MDBottomNavigation:
+        id: view_produto
+
+        MDBottomNavigationItem:
+            name: 'search_produto'
+            text: "Lista de Produtos"
+            icon: 'account'
+            id: search_produto
+            BoxLayout:
+                orientation: 'vertical'
+                padding: dp(10), dp(10)
+                spacing: dp(10)
+                MDTextField:
+                    hint_text: "Digite sua busca..."
+                ScrollView:
+                    do_scroll_x: False
+                    MDList:
+                        id: ml
+
+                        TwoLineListItem:
+                            text: "Refrigerante"
+                            secondary_text: "Valor Unitário: R$ 2,50 - Quantidade: 18 unds"
+                        TwoLineListItem:
+                            text: "Refrigerante"
+                            secondary_text: "Valor Unitário: R$ 2,50 - Quantidade: 18 unds"
+                        TwoLineListItem:
+                            text: "Refrigerante"
+                            secondary_text: "Valor Unitário: R$ 2,50 - Quantidade: 18 unds"
+                        TwoLineListItem:
+                            text: "Refrigerante"
+                            secondary_text: "Valor Unitário: R$ 2,50 - Quantidade: 18 unds"
+                        TwoLineListItem:
+                            text: "Refrigerante"
+                            secondary_text: "Valor Unitário: R$ 2,50 - Quantidade: 18 unds"
+                        TwoLineListItem:
+                            text: "Refrigerante"
+                            secondary_text: "Valor Unitário: R$ 2,50 - Quantidade: 18 unds"
+                        TwoLineListItem:
+                            text: "Refrigerante"
+                            secondary_text: "Valor Unitário: R$ 2,50 - Quantidade: 18 unds"
+                        TwoLineListItem:
+                            text: "Refrigerante"
+                            secondary_text: "Valor Unitário: R$ 2,50 - Quantidade: 18 unds"
+
+        MDBottomNavigationItem:
+            name: 'cadastro_produtos'
+            text: "Cadastro"
+            icon: "plus"
+            id: cadastro_produtos
+            ScrollView:
+                BoxLayout:
+                    orientation: 'vertical'
+                    size_hint_y: None
+                    height: self.minimum_height
+                    padding: dp(48)
+                    spacing: 10
+                    MDTextField:
+                        id: iptNomeProduto
+                        hint_text: "Nome"
+                    MDTextField:
+                        id: iptCategoriaProduto
+                        hint_text: "Categoria"
+                    MDTextField:
+                        id: iptValorProduto
+                        hint_text: "Valor"
+                    MDTextField:
+                        id: iptQuantidadeProduto
+                        hint_text: "Quantidade"
+                    MDTextField:
+                        id: iptDescricaoProduto
+                        hint_text: "Descricao"
+                    MDRaisedButton:
+                        text: "Salvar"
+                        opposite_colors: True

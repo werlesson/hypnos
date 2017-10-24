@@ -1,32 +1,23 @@
-<EnderecoScreen>:
-    name: "endereco"
-    ScrollView:
-        BoxLayout:
-            orientation: 'vertical'
-            size_hint_y: None
-            height: self.minimum_height
-            padding: dp(48)
-            spacing: 10
-            MDTextField:
-                id: iptEstadoEndereco
-                hint_text: "Estado"
-            MDTextField:
-                id: iptCidadeEndereco
-                hint_text: "Cidade"
-            MDTextField:
-                id: iptBairroEndereco
-                hint_text: "Bairro"
-            MDTextField:
-                id: iptCepEndereco
-                hint_text: "CEP"
-            MDTextField:
-                id: iptEnderecoEndereco
-                hint_text: "Endereco"
-            MDTextField:
-                id: iptNumeroEndereco
-                hint_text: "Numero"
-            MDRaisedButton:
-                text: "Salvar"
-                opposite_colors: True
-                on_press: root.save()
-
+<Endereco@BoxLayout>:
+    orientation: 'vertical'
+    size_hint_y: None
+    height: self.minimum_height
+    spacing: 10
+    MDTextField:
+        id: iptEstadoEndereco
+        hint_text: "Estado"
+    MDTextField:
+        id: iptCidadeEndereco
+        hint_text: "Cidade"
+    MDTextField:
+        id: iptBairroEndereco
+        hint_text: "Bairro"
+    MDTextField:
+        id: iptCepEndereco
+        hint_text: "CEP"
+    MDTextField:
+        id: iptEnderecoEndereco
+        hint_text: "Endereco"
+    MDTextField:
+        id: iptNumeroEndereco
+        hint_text: "Numero"

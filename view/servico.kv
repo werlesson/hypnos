@@ -1,30 +1,70 @@
 <ServicoScreen>:
     name: "servico"
-    ScrollView:
-        BoxLayout:
-            orientation: 'vertical'
-            size_hint_y: None
-            height: self.minimum_height
-            padding: dp(48)
-            spacing: 10
-            MDTextField:
-                id: iptNomeServico
-                hint_text: "Nome"
-            MDTextField:
-                id: iptCategoriaServico
-                hint_text: "Categoria"
-            MDTextField:
-                id: iptValorServico
-                hint_text: "Valor"
-            MDTextField:
-                id: iptServicoPPessoa
-                hint_text: "Servico por Pessoa"
-            MDTextField:
-                id: iptServicoPDia
-                hint_text: "Servico por Dia"
-            MDTextField:
-                id: iptDescricaoServico
-                hint_text: "Descricao"
-            MDRaisedButton:
-                text: "Salvar"
-                opposite_colors: True
+
+
+    MDBottomNavigation:
+        id: view_servico
+
+        MDBottomNavigationItem:
+            name: 'search_servico'
+            text: "Lista de Serviços"
+            icon: 'account'
+            id: search_produto
+            BoxLayout:
+                orientation: 'vertical'
+                padding: dp(10), dp(10)
+                spacing: dp(10)
+                MDTextField:
+                    hint_text: "Digite sua busca..."
+                ScrollView:
+                    do_scroll_x: False
+                    MDList:
+                        id: ml
+
+                        TwoLineListItem:
+                            text: "Jantar"
+                            secondary_text: "Valor: R$ 30,00"
+                        TwoLineListItem:
+                            text: "Almoço"
+                            secondary_text: "Valor: R$ 30,00"
+                        TwoLineListItem:
+                            text: "Almoço + Jantar"
+                            secondary_text: "Valor: R$ 50,00"
+                        TwoLineListItem:
+                            text: "Lavanderia"
+                            secondary_text: "Valor: R$ 10,00"
+
+
+        MDBottomNavigationItem:
+            name: 'cadastro_servicos'
+            text: "Cadastro"
+            icon: "plus"
+            id: cadastro_servicos
+            ScrollView:
+                BoxLayout:
+                    orientation: 'vertical'
+                    size_hint_y: None
+                    height: self.minimum_height
+                    padding: dp(48)
+                    spacing: 10
+                    MDTextField:
+                        id: iptNomeServico
+                        hint_text: "Nome"
+                    MDTextField:
+                        id: iptCategoriaServico
+                        hint_text: "Categoria"
+                    MDTextField:
+                        id: iptValorServico
+                        hint_text: "Valor"
+                    MDTextField:
+                        id: iptServicoPPessoa
+                        hint_text: "Servico por Pessoa"
+                    MDTextField:
+                        id: iptServicoPDia
+                        hint_text: "Servico por Dia"
+                    MDTextField:
+                        id: iptDescricaoServico
+                        hint_text: "Descricao"
+                    MDRaisedButton:
+                        text: "Salvar"
+                        opposite_colors: True
